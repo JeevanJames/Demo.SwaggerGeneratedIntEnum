@@ -24,5 +24,5 @@ else
     WriteLine("Successfully deserialized JSON:");
     WriteLine($"Name   : {deserializedPerson.Name}");
     WriteLine($"Company: {deserializedPerson.Company}");
-    WriteLine($"Type   : {deserializedPerson.Type}");
+    WriteLine($"Type   : {deserializedPerson.Type.Value}");
 }
