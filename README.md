@@ -73,3 +73,12 @@ public partial enum PersonType
 ```
 
 However, since this is not supported, we have to resort to using a custom struct. See the files `PersonType.g.cs` which is the generated code and `PersonType.Partial.cs`, which is the partial portion created by the developer with the actual member names.
+
+## Running the demo
+Ensure you have the .NET 6 SDK installed for your operating system.
+
+Navigate to the repository root and run the following command:
+
+```sh
+dotnet run
+```
